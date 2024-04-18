@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    color: #fff;
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transform: all 4s linear;
+    animation: bAnimation 11s linear infinite;
+}
+
+.menu {
+    color:white
+}
+
+.headers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    height: 55px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.headers .logo h1 {
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+}
+
+.headers .lists ul {
+    list-style: none;
+}
+
+.headers .lists ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.headers .lists ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.description {
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    transform: translateY(-50%);
+    font-family: sans-serif;
+}
+
+.description span {
+    color:black;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.7); 
+}
+
+.description h1 {
+    font-size: 50px;
+    
+}
+
+.description p {
+    color:black;
+    max-width: 100%;
+    width: 380px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+
+.image_slider {
+    width: 430px;
+    position: absolute;
+    top: 50%;
+    right: 60px;
+    transform: translateY(-30%);
+    padding: 5px;
+    overflow: hidden;
+
+}
+
+.image_container {
+    display: flex;
+    gap: 20px;
+    transition: all 4s linear;
+    animation: imganime 11s linear infinite;
+}
+
+.image_container img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid #fff;
+    border-radius: 20px;
+}
+
+@keyframes imganime {
+    0% {
+        transform: translateX(0);
+    } 
+    5% {
+        transform: translateX(0);
+    }
+    10% {
+        transform: translateX(0);
+    }
+    15% {
+        transform: translateX(0);
+    }
+    20% {
+        transform: translateX(-220px);
+    }
+    25% {
+        transform: translateX(-220px);
+    }
+    30%{
+        transform: translateX(-220px);
+    }
+    35%{
+        transform: translateX(-220px);
+    }
+    40%{
+        transform: translateX(-220px);
+    }
+    45% {
+        transform: translateX(-220px);
+    }
+    50% {
+        transform: translateX(-440px);
+    }
+    55%{
+        transform: translateX(-440px);
+    }
+    60% {
+        transform: translateX(-440px);
+    }
+    65% {
+        transform: translateX(-440px);
+    }
+    70% {
+        transform: translateX(-440px);
+    }
+    75% {
+        transform: translateX(-650px);
+    }
+    80% {
+        transform: translateX(-650px);
+    }
+    85% {
+        transform: translateX(-650px);
+    }
+    90% {
+        transform: translateX(-650px);
+    }
+    95% {
+        transform: translateX(-650px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes bAnimation {
+    0% {
+        background-image: url(image/golf8_1.jpg);
+    } 
+    5% {
+        background-image: url(image/golf8_1.jpg);
+    }
+    10% {
+        background-image: url(image/golf8_1.jpg);
+    }
+    15% {
+        background-image: url(image/golf8_1.jpg);
+    }
+    20% {
+        background-image: url(image/golf8_2.jpg);
+    }
+    25% {
+        background-image: url(image/golf8_2.jpg);
+    }
+    30%{
+        background-image: url(image/golf8_2.jpg);
+    }
+    35%{
+        background-image: url(image/golf8_2.jpg);
+    }
+    40%{
+        background-image: url(image/golf8_2.jpg);
+    }
+    45% {
+        background-image: url(image/golf8_2.jpg);
+    }
+    50% {
+        background-image: url(image/golf8_3.jpg);
+    }
+    55%{
+        background-image: url(image/golf8_3.jpg);
+    }
+    60% {
+        background-image: url(image/golf8_3.jpg);
+    }
+    65% {
+        background-image: url(image/golf8_3.jpg);
+    }
+    70% {
+        background-image: url(image/golf8_3.jpg);
+    }
+    75% {
+        background-image: url(image/golf8_4.jpg);
+    }
+    80% {
+        background-image: url(image/golf8_4.jpg);
+    }
+    85% {
+        background-image: url(image/golf8_4.jpg);
+    }
+    90% {
+        background-image: url(image/golf8_4.jpg);
+    }
+    95% {
+        background-image: url(image/golf8_4.jpg);
+    }
+    100% {
+        background-image: url(image/golf8_4.jpg);
+    }
+}

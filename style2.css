@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Arial', sans-serif;
+}
+
+body {
+    background: #f2f2f2;
+}
+
+.headers {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 55px;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+}
+
+.headers .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+.headers .logo h1 {
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.headers .lists ul {
+    list-style: none;
+}
+
+.headers .lists ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.headers .lists ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 120px;
+    text-align: center;
+    color: rgba(255, 255, 255, .4);
+}
+
+.parallax-1 {
+    background: url('image/golf20241.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax-2 {
+    background: url('image/golfR.webp') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax-3 {
+    background: url('image/golfGTE.webp') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax-4 {
+    background: url('image/golfGTI.webp') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax-5 {
+    background: url('image/golfGTD.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax-container {
+    height: 600px; 
+}
+
+.parallax-inner {
+    padding: 25% 0; 
+}
+
+
+h2 {
+    font-size: 32px;
+    color: #555;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 20px 0 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+    text-align: justify;
+    line-height: 30px;
+    margin: 0 50px 40px;
+}
+
+p:nth-of-type(2),
+p:nth-of-type(3) {
+    margin: 40px, 50px;
+}
+
+
